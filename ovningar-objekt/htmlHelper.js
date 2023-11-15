@@ -9,6 +9,7 @@ export function createHtmlForPerson(persons) {
 
 
     personContainer.className = "personCard";
+    nameTag.className = "fullName";
     nameTag.innerHTML = persons.name;
     heightTag.innerHTML = persons.height;
     weightTag.innerHTML = persons.weight;

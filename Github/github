@@ -1,0 +1,33 @@
+Git med team
+
+1. En person skapar redpo
+
+2. Bjud in övriga i teamtet
+
+repot --> settings --> collaborators (invite)
+
+3. Klicka på länken i mailet
+
+Branches:
+
+En kopia av kod
+
+
+     feature-footer
+           -------- 
+          |
+main --------------
+
+
+Merge:
+
+1. Växla till destinationsgrenen
+2. git pull
+3. git merge feature-footer <source>
+4. git push
+Konflikt?
+-lös alla
+-commit
+-push
+
+
